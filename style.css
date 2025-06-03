@@ -1,0 +1,91 @@
+
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Estilo do corpo */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Cabeçalho */
+header {
+  background-color: #222;
+  color: #fff;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+/* Navegação */
+nav {
+  background-color: #444;
+  text-align: center;
+  padding: 10px;
+}
+
+nav a {
+  color: #fff;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Seções */
+section {
+  padding: 40px 20px;
+  max-width: 900px;
+  margin: auto;
+}
+
+/* Grid de projetos */
+.grid {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  flex: 1 1 200px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px #ccc;
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+/* Rodapé */
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #222;
+  color: #fff;
+  margin-top: 40px;
+}
+
+/* Responsividade */
+
+.foto-perfil {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  display: block;
+  margin: 15px auto 0 auto;
+  object-fit: cover;
+  border: 3px solid #4CAF50; /* opcional, borda verde */
+}
+```
