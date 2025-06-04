@@ -77,6 +77,19 @@ footer {
   margin-top: 40px;
 }
 
+```css
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 10px;
+}
+
+section {
+  padding: 40px 20px;
+}
+```
+
 /* Responsividade */
 
 .foto-perfil {
