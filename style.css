@@ -77,7 +77,6 @@ footer {
   margin-top: 40px;
 }
 
-```css
 .social-links {
   display: flex;
   justify-content: center;
@@ -88,7 +87,7 @@ footer {
 section {
   padding: 40px 20px;
 }
-```
+
 
 /* Responsividade */
 
