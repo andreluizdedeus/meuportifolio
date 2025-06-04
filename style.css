@@ -100,4 +100,27 @@ section {
   object-fit: cover;
   border: 3px solid #4CAF50; /* opcional, borda verde */
 }
-```
+
+.social-links a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 110px;
+  height: 28px;
+  background-color: #E4405F; /* cor do Instagram */
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.social-links a i {
+  margin-right: 8px;
+}
+
+.social-links a:hover {
+  background-color: #C13584;
+}
+
