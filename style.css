@@ -124,7 +124,7 @@ section {
   background-color: #C13584;
 }
 
-pulse-icon i {
+.pulse-icon i {
 
   font-size: 28px;
 
@@ -157,7 +157,5 @@ pulse-icon i {
     transform: scale(1);
   }
 }
-```
-
 
 
