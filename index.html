@@ -1,70 +1,79 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 <head>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Portfólio - André Luiz De Deus</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio Pessoal - André Luiz</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
-    <h1>André Luiz De Deus</h1>
-    <img src="andreluizdedeuss.jpg" alt="andreluizdedeuss.jpg" class="foto-perfil" />
-<div class="social-links">
-     <div class="social-icons">
-        <!-- Instagram -->
-        <a href="https://instagram.com/andreludevi" target="_blank" aria-label="Instagram">
-            <i class="fab fa-instagram"></i>
-        </a>
 
-        <!-- WhatsApp -->
-        <a href="https://wa.me/55-119-7690-1534" target="_blank" aria-label="WhatsApp">
-            <i class="fab fa-whatsapp"></i>
-        </a>
+    <nav id="menu">
+        <ul>
+            <li><a href="#sobre">Sobre Mim</a></li>
+            <li><a href="#formacao">Formação</a></li>
+            <li><a href="#portfolio">Portfólio</a></li>
+            <li><a href="#contato">Contato</a></li>
+        </ul>
+    </nav>
 
-        <!-- LinkedIn -->
-        <a href="https://linkedin.com/in/seuusuario" target="_blank" aria-label="LinkedIn">
-            <i class="fab fa-linkedin"></i>
-        </a>
-    </div>
-</a>
-</div>
-    <p>Desenvolvedor</p>
-  </header>
+    <header>
+        <h1>André Luiz De Deus</h1>
+        <p>Estudante de Sistemas de Informação</p>
+    </header>
 
-  <nav>
-    <a href="#sobre">Sobre</a>
-    <a href="#projetos">Projetos</a>
-    <a href="#contato">Contatos</a>
-  </nav>
+    <main>
+        <section id="sobre">
+            <h2>Sobre Mim</h2>
+            <p>Olá! Sou estudante de Sistemas de Informação na UNINTER. Tenho interesse em desenvolvimento web e tecnologia.</p>
+            <p>Meus hobbies incluem musculação, mecânica automotiva e jogos de estratégia.</p>
+        </section>
 
-  <section id="sobre">
-    <h2>Sobre Mim</h2>
-    <p> Sou formado em Análise e Desenvolvimento de Sistemas e sou movido por tecnologia e desafios. Curioso por natureza, estou sempre estudando, testando ideias novas e buscando evoluir a cada projeto. Gosto de criar soluções práticas, com visual moderno e que realmente façam diferença. Levo meu trabalho a sério, mas sem perder a leveza de quem curte o que faz e quer crescer sempre.</p>
-  </section>
+        <hr>
 
-  <section id="projetos">
-    <h2>Projetos</h2>
-    <div class="grid">
-      <div class="card">
-        <h3>Landing Page Pessoal</h3>
-        <p></p>
-      </div>
-      <div class="card">
-        <h3></h3>
-        <p></p>
-      </div>
-    </div>
-  </section>
+        <section id="formacao">
+            <h2>Formação</h2>
+            <ul>
+                <li><strong>Graduação:</strong> Sistemas de Informação - UNINTER (Em andamento)</li>
+                <li><strong>Habilidades:</strong> HTML5, CSS3, JavaScript e SQL</li>
+            </ul>
+        </section>
 
-  <section id="contato">
-    <h2>Contato</h2>
-    <p>Email: andreluizdedeuss@gmail.com</p>
-  </section>
+        <hr>
 
-  <footer>
-    <p>© 2025 André Luiz De Deus</p>
-  </footer>
+        <section id="portfolio">
+            <h2>Portfólio</h2>
+            <div class="projetos">
+                <p>Veja meus projetos principais no meu GitHub:</p>
+                <a href="https://github.com/andreluizdedeus" target="_blank">Acessar Repositório Principal</a>
+            </div>
+        </section>
+
+        <hr>
+
+        <section id="contato">
+            <h2>Contato</h2>
+            <form id="formContato">
+                <label for="nome">Nome:</label><br>
+                <input type="text" id="nome" name="nome" placeholder="Seu nome completo"><br><br>
+
+                <label for="email">E-mail:</label><br>
+                <input type="email" id="email" name="email" placeholder="seu@email.com"><br><br>
+
+                <label for="mensagem">Mensagem:</label><br>
+                <textarea id="mensagem" name="mensagem" rows="4" placeholder="Como posso ajudar?"></textarea><br><br>
+
+                <button type="submit" id="btnEnviar">Enviar Mensagem</button>
+            </form>
+            <div id="statusEnvio"></div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 - André Luiz De Deus</p>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
+
